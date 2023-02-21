@@ -4,7 +4,7 @@ import s from './Dialogs.module.css';
 const Dialogs = () => {
   return (
     <div className={s.content}>
-        fsdf
+        Dialogs
     </div>
   )
 }
