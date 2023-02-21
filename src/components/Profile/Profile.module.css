@@ -1,5 +1,4 @@
 .Allcontent {
-  grid-area: c;
   border-radius: 20px;
 }
 
@@ -21,9 +20,12 @@
   display: flex;
 }
 
+.flex p {
+  vertical-align: middle;
+}
+
 .content {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 20px;
   border-radius: 20px;
   background-color: #222222;
 

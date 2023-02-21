@@ -14,5 +14,8 @@
   background-color: #141414;
   font-family: Roboto, sans-serif;
   height: 1400px;
+}
 
+.app-wrapper-content {
+  grid-area: c;
 }

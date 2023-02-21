@@ -8,7 +8,12 @@ const Profile = (props) => {
       <div className={s.content}>
         <div className={s.flex}>
           <img className={s.ava} src="/img/relax.jpg" alt="" />
-          <div className="">+ discription</div>
+          <div>
+            <p className="">Age:25</p>
+            <p className="">Name:Vadim</p>
+            <p className="">City: Zaporozhye</p>
+            <p className="">Work:frontend developer</p>
+          </div>
         </div>
         <MyPosts />
       </div>

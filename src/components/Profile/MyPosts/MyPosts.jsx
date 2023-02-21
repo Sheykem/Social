@@ -10,9 +10,9 @@ const MyPosts = (props) => {
         <button>Add Post</button>
       </div>
       <div className={s.posts}>
-        <Post message="Hi, how are you?" />
-        <Post message="Yes i know React" />
-        <Post message="Redax wait me" />
+        <Post message="Hi, how are you?" countLike={23} />
+        <Post message="Yes i know React" countLike={33} />
+        <Post message="Redax wait me" countLike={53} />
       </div>
     </div>
   );

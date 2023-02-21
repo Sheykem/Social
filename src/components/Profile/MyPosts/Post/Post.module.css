@@ -9,3 +9,16 @@
   height: 50px;
   border-radius: 50%;
 }
+
+.like {
+  width: 20px;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex p {
+  padding-right: 10px;
+}
