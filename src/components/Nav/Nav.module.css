@@ -22,3 +22,18 @@
   padding: 3px;
 }
 
+.item a {
+  color: #c0d3e1;
+  text-decoration: none;
+}
+
+.item:hover a {
+  color: #4f1980;
+}
+
+.item a.activeLink {
+  font-weight: 700;
+  font-size: 27px;
+  /* color: rgb(93, 10, 161); */
+  color: #4f1980;
+}

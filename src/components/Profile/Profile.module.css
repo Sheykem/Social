@@ -28,5 +28,9 @@
   padding: 20px;
   border-radius: 20px;
   background-color: #222222;
+}
 
+.description p {
+  color: #c0d3e1;
+  padding-left: 10px;
 }
