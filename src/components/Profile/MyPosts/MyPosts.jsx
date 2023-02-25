@@ -4,9 +4,10 @@ import Post from './Post/Post';
 const MyPosts = (props) => {
   return (
     <div>
-      My Posts
-      <div>
+      <div className={s.title}>My Posts</div>
+      <div className={s.commit}>
         <textarea name="" id="" cols="20" rows="5" placeholder="NewPost..."></textarea>
+        <br />
         <button>Add Post</button>
       </div>
       <div className={s.posts}>
