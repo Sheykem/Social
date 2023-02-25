@@ -1,0 +1,25 @@
+.dialog:hover {
+    background-color: #424242;
+    width: 50%;
+    height: 10%;
+    border-radius: 5px;
+  }
+  .dialog a {
+    font-size: 20px;
+    color: #c0d3e1;
+    text-decoration: none;
+  }
+  .dialog:hover a {
+    color: #4f1980;
+  }
+  
+  .dialog {
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+  
+  .dialog .activeName {
+    font-weight: 700;
+    font-size: 23px;
+    color: #4f1980;
+  }

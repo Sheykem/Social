@@ -3,7 +3,7 @@ import s from './Post.module.css';
 
 const Post = (props) => {
   return (
-    <div>
+    <div className={s.postBlock}>
       <div className={s.item}>
         <div>
           <img width={30} src="/img/PostPhoto.jpg" alt="" />

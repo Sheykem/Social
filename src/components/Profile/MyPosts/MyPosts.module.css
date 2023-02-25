@@ -8,10 +8,14 @@
   background-color: grey;
   border: 0px solid black;
   border-radius: 10px;
-  width: 200px;
+  width: 80%;
   color: white;
-  max-width: 400px;
   max-height: 100px;
+  padding: 5px;
+
+}
+.commit textarea::placeholder {
+  color: white;
 }
 
 .commit button {
@@ -20,5 +24,11 @@
     cursor: pointer;
     width: 100px;
     opacity: 0.9;
-    margin-bottom: 20px;
+    position: absolute;
+    margin: 0 43%;
 }
+
+.posts {
+  margin-top: 25px;
+}
+

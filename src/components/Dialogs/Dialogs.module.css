@@ -11,28 +11,8 @@
   margin-bottom: 10px;
 }
 
-.dialog:hover {
-  background-color: #424242;
-  width: 50%;
-  height: 10%;
-  border-radius: 5px;
-}
-.dialog a {
-  font-size: 20px;
-  color: #c0d3e1;
-  text-decoration: none;
-}
-.dialog:hover a {
-  color: #4f1980;
-}
-
-.dialog {
-  margin: 10px;
-}
 .messages {
   color: #c0d3e1;
 }
 
-.message {
-  margin: 10px;
-}
+
